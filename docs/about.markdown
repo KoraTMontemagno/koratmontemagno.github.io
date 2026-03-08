@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
+show_on_home: true
 ---
 
 Hello dear friend!

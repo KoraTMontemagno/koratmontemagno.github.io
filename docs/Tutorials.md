@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: Tutorials
 permalink: /tutorials/
+show_on_home: true
 ---
 
 Here you can find a compilation of my most recents tutorials.

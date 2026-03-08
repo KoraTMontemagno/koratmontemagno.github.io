@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: More than just neuroscience
 permalink: /morethanneuro/
+show_on_home: true
 ---
 
 Doing research on sexual pleasure is not just stimulating participants and recording EEG responses. What are we measuring? How are we defining pleasure? We need to discuss these themes with a broader horizon.

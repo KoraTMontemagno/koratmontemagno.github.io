@@ -27,10 +27,10 @@ url: "https://koratmontemagno.github.io/"
 github_username:  KoraTMontemagno
 
 # Build settings
-theme: minima
+theme: jekyll-theme-dinky
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme 
+
 #remote_theme: pages-themes/dinky@v0.2.0
 
 # Exclude from processing.

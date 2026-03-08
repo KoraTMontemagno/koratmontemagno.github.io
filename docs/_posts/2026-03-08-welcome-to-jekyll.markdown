@@ -1,29 +1,18 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
+layout: default
+title:  "A first attempt at creating a vibration-EEG experiment!"
 date:   2026-03-08 19:04:52 +0100
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+During my next experiment, I want to program a vibrator to deliver a custom vibration to a participant while they undergo EEG recordings.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+But how to choose which vibration intensity to deliver?
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+We can use psychophysics - especially the Psi method [here](https://github.com/NNiehof/Psi-staircase/blob/master/PsiMarginal.py).
 
-Jekyll also offers powerful support for code snippets:
+I managed to create a thresholding paradigm that will identify the "pleasure" threshold for a participant and allow me to select a suitable value :)
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Have a look at my first code [here](https://github.com/KoraTMontemagno/pleasure_experiments)
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
