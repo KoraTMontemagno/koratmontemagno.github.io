@@ -21,15 +21,17 @@
 title: On sex and pleasure experiments
 email: kora.montemagno@cfin.au.dk
 description: >- # this means to ignore newlines until "baseurl:"
-  I am giving away for free my newfond knowledge on how to become a sex and pleasure neuroscientist :)
+  I am giving away my newfound knowledge on how to become a sex and pleasure neuroscientist :)
 baseurl: "/docs" 
-url: "https://koratmontemagno.github.io/docs/" 
+url: "https://koratmontemagno.github.io/" 
 github_username:  KoraTMontemagno
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme 
+#remote_theme: pages-themes/dinky@v0.2.0
 
 # Exclude from processing.
 # The following items will not be processed, by default.
